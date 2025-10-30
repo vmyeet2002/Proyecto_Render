@@ -103,6 +103,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['familia'])) {
 </head>
 <body>
     <div class="container">
+        <h1>Vicor Manuel </h1>
+        <h1> 2do DAW </h1>
         <h1>Listado de Productos</h1>
         <p class="subtitle">Seleccione una familia para ver los productos asociados.</p>
         
