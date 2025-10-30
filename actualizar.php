@@ -78,7 +78,6 @@ $stmt = $conn->prepare($sql);
 if ($stmt) {
     $params = [$nombre_corto, $nombre, $descripcion, $pvp, $familia, $cod];
     
-    /
     sleep(1); 
 
     if ($stmt->execute($params)) {
